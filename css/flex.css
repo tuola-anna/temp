@@ -1,0 +1,38 @@
+
+header{
+    display:flex;
+    height:320px;
+}
+.logo{
+}
+.header-text{
+    flex-grow: 1;
+    background: thistle;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-row{
+    display:flex;
+    margin-top:10px;
+}
+nav{
+    align-self: flex-start;
+    background: lightblue;
+    padding-right: 5px;
+}
+.content{
+    margin:0 10px;
+    background: darkgoldenrod;
+    padding: 5px;
+}
+aside{
+    align-self: flex-start;
+    background: lightblue;
+    padding-right: 5px;
+}
+nav>ul, aside>ul{
+    list-style: none;
+    padding-left:10px;
+}

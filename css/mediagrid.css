@@ -1,0 +1,44 @@
+@media (max-width:500px)
+{
+    .container{
+        display: block;
+    }
+    .logo{
+        text-align: center;
+        object-fit: contain;
+    }
+    .logo img{
+        width:100%;
+        height:auto;
+    }
+    nav{
+        width:100%;
+        box-sizing: border-box;
+        padding-right: 0;
+        display:flex;
+        align-items: center;
+    }
+    nav>ul li{
+        display:block;
+    }
+    nav>ul{
+        display:flex;
+        justify-content: space-around;
+        width:100%;
+    }
+    .content{
+        width:100%;
+        box-sizing: border-box;
+        margin:5px 0 0 0 !important;
+    }
+    aside{
+        width:100%;
+        padding-right:0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    aside > ul{
+        list-style: none;
+        padding:0;
+    }
+}
